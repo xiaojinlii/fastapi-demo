@@ -2,9 +2,9 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import joinedload
 
-from fastapi_xiaojinli.response import SuccessResponse
-from fastapi_xiaojinli.db.database import db_getter
-from fastapi_xiaojinli.db.dependencies import IdList
+from xiaoapi.response import SuccessResponse
+from xiaoapi.db.database import db_getter
+from xiaoapi.db.dependencies import IdList
 from . import schemas, models, crud
 from .dependencies import EmployeeParams, DepartmentParams
 

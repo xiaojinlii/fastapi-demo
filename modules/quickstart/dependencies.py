@@ -1,5 +1,5 @@
 from fastapi import Depends, Query
-from fastapi_xiaojinli.db.dependencies import Paging, QueryParams
+from xiaoapi.db.dependencies import Paging, QueryParams
 
 
 class DepartmentParams(QueryParams):

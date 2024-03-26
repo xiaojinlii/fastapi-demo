@@ -75,16 +75,15 @@ STATIC_URL = "/static"
 # middleware will be applied in the order given, and in the response
 # phase the middleware will be applied in reverse order.
 MIDDLEWARES = [
-    "fastapi_xiaojinli.middleware.register_request_log_middleware",
+    "xiaoapi.middleware.register_request_log_middleware",
 ]
 
 
 ############
 # LIFESPAN #
 ############
-
 EVENTS = [
-    # "fastapi_xiaojinli.extensions.redis.connect_redis",
+    # "xiaoapi.extensions.redis.connect_redis",
 ]
 
 

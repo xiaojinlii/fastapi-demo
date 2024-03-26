@@ -5,7 +5,7 @@ os.environ.setdefault('FASTAPI_SETTINGS_MODULE', 'application.settings')
 
 from sqlalchemy import select, delete
 
-from fastapi_xiaojinli.db.database import session_factory
+from xiaoapi.db.database import session_factory
 from modules.quickstart.models import *
 
 
