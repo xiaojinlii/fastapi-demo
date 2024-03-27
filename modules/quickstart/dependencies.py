@@ -1,5 +1,5 @@
 from fastapi import Depends, Query
-from xiaoapi.db.dependencies import Paging, QueryParams
+from xiaoapi_sqlalchemy import Paging, QueryParams
 
 
 class DepartmentParams(QueryParams):
