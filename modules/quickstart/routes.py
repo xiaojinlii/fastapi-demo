@@ -3,7 +3,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import joinedload
 
 from xiaoapi.response import SuccessResponse
-from xiaoapi_sqlalchemy import db_getter
+from xiaoapi_sqlalchemy.database import db_getter
 from xiaoapi_sqlalchemy import IdList
 from . import schemas, models, crud
 from .dependencies import EmployeeParams, DepartmentParams

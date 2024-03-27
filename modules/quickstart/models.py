@@ -2,7 +2,7 @@ from typing import List
 
 from sqlalchemy import String, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from xiaoapi_sqlalchemy import BaseModel
+from xiaoapi_sqlalchemy.model_base import BaseModel
 
 
 class Department(BaseModel):
