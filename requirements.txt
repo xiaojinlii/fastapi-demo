@@ -1,2 +1,2 @@
-xiaoapi==0.0.1
-xiaoapi-sqlalchemy==0.0.1
+xiaoapi
+xiaoapi-sqlalchemy
